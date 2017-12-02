@@ -1,0 +1,132 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site 网站
+title: 黄英的博客
+subtitle: 我们不能飞，但是至少还能抬头看天空
+description: 
+author: 七里
+email: 15617679341@163.com
+keywords: 
+# language: zh-CN   #网站使用的语言
+timezone:           #网站时区。Hexo 默认使用您电脑的时区
+
+# URL 网址
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://yoursite.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+
+# Directory 目录
+source_dir: source
+public_dir: public
+
+# Writing 文章
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: ture
+relative_link: false
+highlight:                                                                                                                                                                                                   
+  enable: true                                                                                                                                                                                               
+  auto_detect: true                                                                                                                                                                                          
+  line_number: true                                                                                                                                                                                          
+  tab_replace: 
+
+# Category & Tag   标签和分类设置
+default_category: uncategorized #默认分类
+category_map:   #分类别名
+tag_map:   #标签别名
+
+#你的头像url
+avatar: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1512066842709&di=8d8c77d5587036ff95512a457457177c&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201411%2F29%2F20141129144243_c4Fc2.thumb.224_0.png
+
+# Archives
+## 2: Enable pagination 启动分页
+## 1: Disable pagination 禁用分页
+## 0: Fully disable  完全禁用
+archive: 1
+category: 1
+tag: 1
+
+# Server 服务启动
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+port: 4000
+server_ip: localhost
+logger: false
+logger_format: dev
+
+# Date / Time format 日期时间格式
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination 分页设置
+## Set per_page to 0 to disable pagination
+per_page: 8  #每页显示的文章量 (0 = 关闭分页功能)
+pagination_dir: page  #分页目录
+
+# Disqus
+disqus_shortname:
+
+# Extensions
+## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+## Themes: https://github.com/hexojs/hexo/wiki/Themes
+# plugins:
+#  - hexo-generator-feed
+#  - hexo-generator-baidu-sitemap
+#  - hexo-generator-sitemap
+
+theme: yilia  #主题
+exclude_generator:
+
+# Deployment 部署
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: https://github.com/huangying123456/huangying123456.github.io
+
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xm
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 100
+
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: ture
+    tags: true
+
