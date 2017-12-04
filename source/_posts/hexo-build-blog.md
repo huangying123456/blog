@@ -114,12 +114,43 @@ theme: yilia  #主题
 个人实现是根据这篇的，因为自己使用的是yilia模板，而且这个实现很较简单：
 http://blog.csdn.net/q_qtowerq_q/article/details/78565166
 
+
+## 绑定个人域名
+
+1. 搞个域名
+2. 在博客根目录下添加CANCEL文件，将自己的域名写入这个文件
+
+这里有一篇比较详细的博客,最后是讲域名配置的：[在GithubPages上搭建个人主页](http://blog.csdn.net/yanzhenjie1003/article/details/51703370)
+
+说明： 解决每次部署的时候CNAME文件消失，
+最好的解决办法，在你博客源码的source目录下添加CNAME，相当于每次部署都会去自动生成一次。
+
+
+
+## 如何让自己的博客在搜索引擎中搜到
+
+[hexo高阶教程：想让你的博客被更多的人在搜索引擎中搜到吗？](http://blog.csdn.net/sunshine940326/article/details/70936988)
+
 ## hexo相关命令
 
-- hexo init 初始化
-- hexo generate （hexo g） 生成静态页面
-- hexo server（hexo s） 启动本地服务
-- hexo deploy(hexo d) 执行部署 
-- hexo new page 新建页面
+
+```
+hexo init 初始化
+hexo new "postName" #新建文章
+hexo new page "pageName" #新建页面
+hexo generate #生成静态页面至public目录
+hexo server #开启预览访问端口（默认端口4000，'ctrl + c'关闭server）
+hexo deploy #将.deploy目录部署到GitHub
+hexo help  # 查看帮助
+hexo version  #查看Hexo的版本
+hexo deploy -g  #生成加部署
+hexo server -g  #生成加预览
+命令的简写
+hexo n == hexo new
+hexo g == hexo generate
+hexo s == hexo server
+hexo d == hexo deploy
+
+```
 
 
