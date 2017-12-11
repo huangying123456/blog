@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/ 
+
+Sitemap: http://www.huangying47.top/sitemap.xml
+Sitemap: http://www.huangying47.top/baidusitemap.xm
