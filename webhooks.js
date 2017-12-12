@@ -8,4 +8,4 @@ http.createServer(function (req, res) {
         exec('sh ./deploy.sh')
     }
     res.end()
-}).listen(4000)
+}).listen(4002)

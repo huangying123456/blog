@@ -131,6 +131,10 @@ http://blog.csdn.net/q_qtowerq_q/article/details/78565166
 
 [hexo高阶教程：想让你的博客被更多的人在搜索引擎中搜到吗？](http://blog.csdn.net/sunshine940326/article/details/70936988)
 
+## hexo自动部署
+
+[hexo监听git push 实现自动部署](https://segmentfault.com/a/1190000006745478)
+
 ## hexo相关命令
 
 
