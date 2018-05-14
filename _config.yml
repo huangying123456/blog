@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site 网站
-title: 黄英的博客
+title: hying's blog
 subtitle: 我们不能飞，但是至少还能抬头看天空
 description: 
 author: 七里
@@ -49,7 +49,7 @@ category_map:   #分类别名
 tag_map:   #标签别名
 
 #你的头像url
-avatar: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1512066842709&di=8d8c77d5587036ff95512a457457177c&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201411%2F29%2F20141129144243_c4Fc2.thumb.224_0.png
+avatar: https://s31.postimg.cc/u877ppdhn/0_2.jpg
 
 # Archives
 ## 2: Enable pagination 启动分页
