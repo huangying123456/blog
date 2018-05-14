@@ -9,8 +9,6 @@ tags:
 
 ## 前言
 
-![WX20171213-161617@2x.png](shell-study/WX20171213-161617@2x.png)
-
 记录学习shell脚本相关的知识。。。。
 
 ## shell简介

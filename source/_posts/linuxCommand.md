@@ -7,8 +7,6 @@ tags:
 
 ## 前言
 
-![19231557881875188](linuxCommand/19231557881875188.jpg)
-
 [linux命令手册](http://man.linuxde.net)
 
 简单记录了一些基础常见的linux命令
